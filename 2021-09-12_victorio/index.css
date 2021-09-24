@@ -1,0 +1,42 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: pink;
+}
+/* This adds a different font to the paragraph as the rest of the piece */
+p, ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class selector for the title backgrounds */
+.title {
+    background-color: violet;
+    padding: 10px;
+    color:white;
+    border:white;
+    border-radius: 500px;
+    text-align: center;
+}
+
+/* Descendant selector for the list */
+ol li {
+    list-style-position: inside;
+    text-align: center;
+    margin: 40px;
+    text-decoration: underline solid violet 2px;
+}
+/* This goes for all images to have correct spacing and be centered */ 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/* This is an ID selector for the link to my second page */
+#link {
+    background-color: violet;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    border-radius: 500px;
+}
